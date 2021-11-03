@@ -2,6 +2,7 @@
 
 ## tl;dr
 
+    yarn
     yarn test
 
 
