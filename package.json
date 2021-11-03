@@ -4,9 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@cucumber/cucumber": "^8.0.0-rc.1"
+    "@cucumber/cucumber": "^8.0.0-rc.1",
+    "@types/chai": "^4.2.22",
+    "@types/cucumber": "^7.0.0",
+    "chai": "^4.3.4",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
   },
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js"
+    "test": "cucumber-js"
   }
 }

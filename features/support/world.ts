@@ -1,16 +1,14 @@
 // features/support/world.js
-const { setWorldConstructor } = require("@cucumber/cucumber");
+import { setWorldConstructor } from "@cucumber/cucumber";
 
 class CustomWorld {
-  constructor() {
-    this.variable = 0;
-  }
+  private variable: number = 0;
 
-  setTo(number) {
+  setTo(number: number) {
     this.variable = number;
   }
 
-  incrementBy(number) {
+  incrementBy(number: number) {
     this.variable += number;
   }
 }
