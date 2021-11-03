@@ -1,5 +1,5 @@
-import { Given, When, Then } from "@cucumber/cucumber";
-import { assert } from 'chai';
+import { Given, Then,When } from "@cucumber/cucumber";
+import { assert } from "chai";
 
 Given("a variable set to {int}", function (number: number) {
   this.setTo(number);

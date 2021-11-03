@@ -2,7 +2,7 @@
 import { setWorldConstructor } from "@cucumber/cucumber";
 
 class CustomWorld {
-  private variable: number = 0;
+  private variable = 0;
 
   setTo(number: number) {
     this.variable = number;
