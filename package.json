@@ -1,0 +1,12 @@
+{
+  "name": "try-cucumber",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  }
+}
