@@ -6,6 +6,7 @@
   "scripts": {
     "eslint": "eslint features --ext .ts",
     "eslint:fix": "eslint features --ext .ts --fix",
+    "lint": "yarn prettier && yarn eslint",
     "lint:fix": "yarn package:fix && yarn prettier:fix && yarn eslint:fix",
     "package:fix": "format-package -w",
     "prettier": "npx prettier --check .",
