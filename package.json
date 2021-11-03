@@ -10,7 +10,8 @@
     "package:fix": "format-package -w",
     "prettier": "npx prettier --check .",
     "prettier:fix": "npx prettier --write .",
-    "test": "cucumber-js"
+    "test": "cucumber-js",
+    "update": "yarn upgrade"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^8.0.0-rc.1",
