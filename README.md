@@ -1,3 +1,7 @@
-# try-cucumber
+# Try Cucumber
 
-Try Cucumber
+## tl;dr
+
+    yarn test
+
+
